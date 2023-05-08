@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 10px;
+}
+header h1 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: left;
+  padding: 50px;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  background-color: #b1a296;
+  color: black;
+}
+
+.avatar {
+  background-image: url(../images/avatar-generations_hugw.jpg);
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #b1a296;
+  border-style: solid;
+  border-color: black;
+  border-top: none;
+  color: black;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #b1a296;
+  margin: 0;
+}
+
+.about-me {
+  display: block;
+  height: 30%;
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: #b1a296;
+}
+
+.large-container {
+  display: block;
+  object-fit: contain;
+  margin: 20px;
+  padding: 20px;
+  height: 800px;
+  margin-bottom: auto;
+  border-style: solid;
+  border-color: black;
+  background-color: #b1a296;
+}
+
+.contact-information {
+  display: block;
+  height: 30%;
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+}
