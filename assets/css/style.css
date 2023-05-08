@@ -7,7 +7,6 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin: 10px;
 }
 header h1 {
   display: flex;
@@ -52,6 +51,20 @@ header nav ul li {
   height: 30%;
   width: auto;
   margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: #b1a296;
+}
+
+.my-work {
+  display: block;
+  height: 30%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
   border-style: solid;
   border-color: black;
@@ -60,22 +73,51 @@ header nav ul li {
 
 .large-container {
   display: block;
-  object-fit: contain;
+  position: relative;
+  height: 500px;
   margin: 20px;
-  padding: 20px;
-  height: 800px;
-  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
   border-style: solid;
   border-color: black;
-  background-color: #b1a296;
+  line-height: 0;
+}
+
+.small-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: black;
+  width: 100%;
+}
+
+.individual-small-boxes {
+  flex: 25%;
+  padding: 0;
+  height: 25%;
+  width: 25%;
+  margin-right: auto;
 }
 
 .contact-information {
   display: block;
   height: 30%;
   width: auto;
-  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
   border-style: solid;
   border-color: black;
+}
+.small-text-box {
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+  right: 0;
+  color: black;
+  padding: 20px;
 }
