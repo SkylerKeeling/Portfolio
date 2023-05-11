@@ -3,12 +3,14 @@ body {
   color: black;
   background-color: white;
 }
+
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   vertical-align: bottom;
 }
+
 .header-text-and-image {
   display: flex;
   margin-left: auto;
@@ -73,17 +75,17 @@ header nav ul li {
 }
 
 .large-container {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
-  height: 500px;
-  margin: 20px;
+  height: 700px;
+  margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
   border-style: solid;
   border-color: black;
-  line-height: 0;
 }
 
 .small-container {
@@ -97,7 +99,6 @@ header nav ul li {
   vertical-align: bottom;
   border-style: solid;
   border-color: black;
-  width: 100%;
 }
 
 .individual-small-boxes {
@@ -121,7 +122,6 @@ header nav ul li {
   padding: 20px;
   border-style: solid;
   border-color: black;
-  border-top: 0;
   background-color: #b1a296;
 }
 .small-text-box {
@@ -142,5 +142,16 @@ header nav ul li {
 
   main {
     max-width: 1200px;
+  }
+
+  .small-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .individual-small-boxes {
+    flex: 100%;
+    width: 100%;
+    height: 100px;
   }
 }
