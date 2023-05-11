@@ -11,6 +11,7 @@ img {
   vertical-align: bottom;
 }
 
+/*Header and navigation styling*/
 .header-text-and-image {
   display: flex;
   margin-left: auto;
@@ -74,6 +75,7 @@ header nav ul li {
   background-color: #b1a296;
 }
 
+/*large container styles project 1*/
 .large-container {
   display: flex;
   flex-wrap: wrap;
@@ -88,6 +90,7 @@ header nav ul li {
   border-color: black;
 }
 
+/*small container styles project 2, 3, 4, 5.*/
 .small-container {
   display: inline-flex;
   flex-wrap: wrap;
@@ -124,6 +127,8 @@ header nav ul li {
   border-color: black;
   background-color: #b1a296;
 }
+
+/*small text under project images*/
 .small-text-box {
   position: absolute;
   background-color: white;
